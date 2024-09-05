@@ -32,11 +32,11 @@ repo: [GitHub](https://github.com/yokingma/search_with_ai)、 [Gitee](https://gi
 1.**Get the code.**
 
 ```shell
-git clone https://github.com/yokingma/search_with_ai.git
+git clone https://github.com/Aliang-code/search_with_ai.git
 cd search_with_ai
 ```
 
-2.**Edit** [.env.docker](https://github.com/yokingma/search_with_ai/blob/main/.env) **file.**
+2.**Edit** [.env.docker](https://github.com/Aliang-code/search_with_ai/blob/main/.env) **file.**
 
 KEY is required.
 
@@ -85,6 +85,7 @@ Remember to save your **.env** settings if it has been changed before.
 * ChatGLM
 * Tencent Hunyuan
 * Ollama, LMStudio
+* Groq
 
 #### Local LLM
 
@@ -149,9 +150,9 @@ cd web && yarn install && yarn run build
 
 * **Config(.env)**
 
-[.env](https://github.com/yokingma/search_with_ai/blob/main/.env) is the project configuration file. Please configure it according to your requirements.
+[.env](https://github.com/Aliang-code/search_with_ai/blob/main/.env) is the project configuration file. Please configure it according to your requirements.
 
-[.env.docker](https://github.com/yokingma/search_with_ai/blob/main/.env.docker) is for docker deployment.
+[.env.docker](https://github.com/Aliang-code/search_with_ai/blob/main/.env.docker) is for docker deployment.
 
 * **Run**
 In the root of the project:

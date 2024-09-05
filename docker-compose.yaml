@@ -1,14 +1,18 @@
 version: "3.7"
 
 services:
-  search:
-    build: ./
-    container_name: search
-    volumes:
-      - ./.env.docker:/app/.env
+  search-with-ai:
+    image: aliangbaby/search-with-ai
+    container_name: search-with-ai
+    restart: unless-stopped
     ports:
-      - "3000:3000"
-    restart: always
+      - 3000:3000
+    environment:
+      # openai key
+      - OPENAI_KEY=
+      # openai proxy
+      - OPENAI_PROXY_URL=
+      - SEARXNG_HOSTNAME=http://searxng:8080
 
   searxng:
     container_name: searxng

@@ -10,6 +10,7 @@ import { deepseek } from './deepseek';
 import { chatglm } from './chatglm';
 import { ollama } from './ollama';
 import { lmstudio } from './lmstudio';
+import { groq } from './groq';
 
 const platform = {
   aliyun,
@@ -23,7 +24,8 @@ const platform = {
   moonshot,
   lepton,
   ollama,
-  lmstudio
+  lmstudio,
+  groq
 };
 
 export default platform;
